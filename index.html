@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORME - SITE</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="page. nous contacter.php">
+    <script src="https://kit.fontawesome.com/96dcb489df.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="page .prochain vol.php" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="site.html">
+                <h1><span>BAY</span> Airlines</h1>
+            </a>
+        </div>
+        <!-- menu responsive -->
+        <div class="toggle-menu"></div>
+
+        <ul class="menu">
+            <li><a href="page .prochain vol.html">Prochain vol</a></li>
+            <li><a href="page. Réserver un billet.html">Réserver un billet</a></li>
+            <li><a href="page. Boutique.html">Boutique</a></li>
+            <li><a href="page. nous contacter.html">Nous contacter</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="left">
+            <div class="search-box">
+                <img src="https://www.icone-png.com/png/1/1494.png">
+                <input type="text">
+            </div>
+            <hr>
+            <h1>Offez vous un voyage de qualité, </h1>
+            <h1>choisissez BAY Airlines</h1>
+            <p>BAY Airlines est une compagnie aérienne déservant les Iles de Grand Thef Auto.
+                Si vous souhaitez réserver une préstation rendez vous sur l'onglet : Réserver un billets
+            </p>
+            <ul class="icons">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+            </ul>
+        </div>
+        <!-- right div -->
+        <div class="right">
+            <img src="https://viatrolebus.com.br/wp-content/uploads/2019/11/a350-1000-ff-3-990x660.jpg" height="400"
+                width="600">
+
+        </div>
+    </section>
+
+    <script>
+        var menu = document.querySelector(".menu");
+        var toggle_menu = document.querySelector(".toggle-menu");
+        toggle_menu.onclick = function () {
+            toggle_menu.classList.toggle('active');
+            menu.classList.toggle('responsive');
+        }
+    </script>
+
+</body>
+
+</html>
