@@ -18,6 +18,40 @@ header {
     padding: 0 10%;
     height: 80PX;
     color: #fff;
+    margin-bottom: 100px;
+}
+
+table{
+    color: #fff;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    top: 50px;
+}
+d1{
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    top: 50px;
+}
+table d1{
+    color: #191513;
+    margin-top: 50x;
+}
+
+table{
+    border-collapse: collapse
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #fff;
+    color: #191513;
 }
 header .logo {
     color: #fff;
